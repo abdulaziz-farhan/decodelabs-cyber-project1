@@ -70,7 +70,7 @@ def check_password(password):
         strength = "STRONG"
         symbol = "🟢"
 
-    print("\n========== PASSWORD REPORT ==========")
+    print("\n PASSWORD REPORT ")
     print("Password Length:", len(password))
     print("Security Score:", score, "/ 9")
     print("Password Strength:", symbol, strength)
@@ -82,14 +82,8 @@ def check_password(password):
     else:
         print("\nExcellent! Your password meets all checks.")
 
-    print("=====================================")
-
-
 def main():
-    print("=====================================")
-    print("       PASSWORD STRENGTH CHECKER")
-    print("=====================================")
-
+    print("PASSWORD STRENGTH CHECKER")
     while True:
         password = getpass.getpass("\nEnter your password: ")
 
